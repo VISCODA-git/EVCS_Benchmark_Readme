@@ -100,14 +100,14 @@ The evaluation benchmark is built on top of [mmdetection](https://github.com/ope
 Model configs are contained in the software
 | Detector | Backbone | Setup| #Class |Config File |
 | :------: | :------: | :------: | :------: | :------: |
-| Faster-RCNN-R50   |   R50  |   FineTune  | 8 | configs/greenautoml/experiment_different_networks/faster-rcnn_r50_fpn_1x_greenautoml_evcs_pretrained_batch_size_8.py|
-| Faster-RCNN-R101  |   R101 |   FineTune  | 8 | configs/greenautoml/experiment_different_networks/faster-rcnn_x101-32x4d_fpn_1x_coco_greenautoml_evcs_pretrained_batch_size_5.py| 
-| YOLOX-s           |   CSPDarkNet | FineTune | 8 | configs/greenautoml/experiment_different_networks/yolox_s_greenautoml_evcs.py| 
-| YOLOX-l           |   CSPDarkNet Larger | FineTune | 8 | configs/greenautoml/experiment_different_networks/yolox_l_greenautoml_evcs.py |
-| DINO-L-FT | Swin-L | FineTune | 8 | configs/greenautoml/experiment_different_networks/dino-5scale_swin-l_8xb2-12e_coco.py|
-|Grounding-DINO-t-FT | Swin-t | FineTune | 8 | configs/grounding_dino/grounding_dino_swin-t_finetune_8xb2_20e_evcs_closeset_dataset1.1_greenautoml.py|
-|Grounding-DINO-one-class-t-FT | Swin-t | FineTune | 1 |configs/greenautoml/grounding_dino/grounding_dino_swin-t_finetune_8xb2_20e_evcs_one_class_greenautoml.py|
-|Grounding-DINO-one-class-t-PT | Swin-t | Prompt Tuning | 1 | projects/GroundingdinoPT/config/grounding_dino_swinT_EVCS_oneclass_mmpretrained_additional_dataset1.1_prompt.py|
+| Faster-RCNN-R50   |   R50  |   FineTune  | 8 | model_configs/configs/faster-rcnn/faster-rcnn_r50_fpn_1x_greenautoml_evcs_pretrained_batch_size_8.py|
+| Faster-RCNN-R101  |   R101 |   FineTune  | 8 | model_configs/configs/faster-rcnn/faster-rcnn_x101-32x4d_fpn_1x_coco_greenautoml_evcs_pretrained_batch_size_5.py| 
+| YOLOX-s           |   CSPDarkNet | FineTune | 8 | model_configs/configs/faster-rcnn/yolox/yolox_s_greenautoml_evcs.py| 
+| YOLOX-l           |   CSPDarkNet Larger | FineTune | 8 | model_configs/configs/faster-rcnn/yolox/yolox_l_greenautoml_evcs.py |
+| DINO-L-FT | Swin-L | FineTune | 8 | model_configs/configs/faster-rcnn/yolox/dino/dino-5scale_swin-l_8xb2-12e_coco.py|
+|Grounding-DINO-t-FT | Swin-t | FineTune | 8 | model_configs/configs/grounding_dino/grounding_dino_swin-t_finetune_8xb2_20e_evcs_closeset_dataset1.1_greenautoml.py|
+|Grounding-DINO-one-class-t-FT | Swin-t | FineTune | 1 |model_configs/configs/grounding_dino/grounding_dino_swin-t_finetune_8xb2_20e_evcs_one_class_greenautoml.py|
+|Grounding-DINO-one-class-t-PT | Swin-t | Prompt Tuning | 1 | model_configs/GroundingdinoPT/config/grounding_dino_swinT_EVCS_oneclass_mmpretrained_additional_dataset1.1_prompt.py|
 
 ## Training and test commands
 
