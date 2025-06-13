@@ -80,7 +80,7 @@ The key "visibility" was added to the annotation dictionary to provide the visib
 We set the "iscrowd" attribute to 1 for each annotation that has a visibility level of 3, such that those heavily occluded or truncated annotations are ignored during training and evaluation with [mmdetection](https://github.com/open-mmlab/mmdetection).
 
 ## Dataset download
-The dataset can be downloaded at [VISOCDA EVCS DATASET](https://evcs.viscoda.com/)
+The dataset can be downloaded at [VISCODA EVCS DATASET](https://evcs.viscoda.com/)
 This EVCS Dataset by VISCODA GmbH is licensed under CC BY-NC-SA 4.0.
 
 
